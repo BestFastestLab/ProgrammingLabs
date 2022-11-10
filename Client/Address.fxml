@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddressController">
+   <children>
+      <Label fx:id="message" alignment="CENTER" layoutX="7.0" layoutY="14.0" prefHeight="25.0" prefWidth="318.0" text="Введите адрес" />
+      <TextField fx:id="textField" alignment="CENTER" layoutX="94.0" layoutY="70.0" onAction="#readText" />
+      <Button fx:id="button" layoutX="142.0" layoutY="138.0" mnemonicParsing="false" onAction="#click" text="Ввести" />
+      <Label fx:id="result" alignment="CENTER" contentDisplay="CENTER" layoutX="93.0" layoutY="108.0" prefHeight="17.0" prefWidth="149.0" text="Попробуте заново!" visible="false" />
+      <Label fx:id="advice" alignment="CENTER" layoutX="8.0" layoutY="46.0" prefHeight="17.0" prefWidth="318.0" />
+   </children>
+</Pane>
